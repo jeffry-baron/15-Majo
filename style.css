@@ -1,7 +1,7 @@
 @import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css");
 
 :root {
-  --morado: #7d4572;
+  --morado: #8B39B8;
   --blanco: #f5f4f4;
 }
 
@@ -142,6 +142,28 @@ p {
   font-weight: bold;
   margin-top: 5px;
   color: #333;
+}
+
+.lineal {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+a {
+  margin-top: 30px !important;
+  border: 1px solid #8B39B8;
+  border-radius: 15px;
+  width: 300px !important;
+  padding: 5px 15px;
+  font-family: "Oranienbaum", serif;
+  font-size: 2rem;
+  cursor: pointer;
+  text-align: center;
+  color: var(--blanco);
+  background-color: var(--morado);
+  text-decoration: none;
 }
 
 @media screen {}
