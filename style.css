@@ -25,6 +25,29 @@ p {
   color: #7d4572;
 }
 
+h1 {
+  font-family: "Fleur De Leah", serif;
+  font-size: 80px;
+  text-align: center;
+}
+
+h2 {
+  font-size: 60px;
+}
+
+h3 {
+  font-size: 30px;
+}
+
+p {
+  font-family: "Oranienbaum", serif;
+  font-size: 26px;
+}
+
+.morado {
+  color: #7d4572;
+}
+
 /*INICIO FUENTE*/
 
 .oranienbaum-regular {
