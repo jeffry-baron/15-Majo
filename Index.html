@@ -227,32 +227,46 @@
 
             <div class="container-fluid mt-2">
                 <div class="row">
-                    <div class="col-md-8 col-sm-10">
+                    <div class="col-md-6 col-sm-10">
                         <div class="row lineal">
                             <div class="col-10">
                                 <h2 class="mt-2 morado mb-5">Galeria</h2>
 
                             </div>
-                            <div class="col-10 mt-3">
-                                <!-- Slider principal -->
-                                <div class="slider-for">
-                                    <div><img src="assets/images/DSC_9374.jpg" alt="Imagen 1" ></div>
-                                    <div><img src="assets/images/DSC_9713.jpg" alt="Imagen 2" ></div>
-                                    <div><img src="assets/images/DSC_9719.jpg" alt="Imagen 3" ></div>
-                                    <div><img src="assets/images/DSC_9765.jpg" alt="Imagen 4" ></div>
-                                    <div><img src="assets/images/DSC_9771.jpg" alt="Imagen 5" ></div>
+                            <div class="col-12">
+                                <div class="row d-flex justify-content-center">
+                                    <div class="col-10 mt-3 Galeria">
+                                        <img src="assets/images/DSC_9374.jpg" alt="">
+                                    </div>
+
+                                    <div class="col-5 mt-3 Galeria">
+                                        <img src="assets/images/DSC_9719.jpg" alt="">
+                                    </div>
+
+                                    <div class="col-5 mt-3 Galeria">
+                                        <img src="assets/images/DSC_9713.jpg" alt="">
+                                    </div>
+
+                                    <div class="col-10 mt-3 Galeria">
+                                        <img src="assets/images/DSC_9765.jpg" alt="">
+                                    </div>
+
+                                    <div class="col-10 mt-3 Galeria">
+                                        <img src="assets/images/DSC_9771.jpg" alt="">
+                                    </div>
+
                                 </div>
                             </div>
-
-                            <!-- Slider de navegación -->
-                            <div class="slider-nav mt-5">
-                                <div><img src="assets/images/DSC_9374.jpg" alt="Imagen 1" ></div>
-                                <div><img src="assets/images/DSC_9713.jpg" alt="Imagen 2" ></div>
-                                <div><img src="assets/images/DSC_9719.jpg" alt="Imagen 3" ></div>
-                                <div><img src="assets/images/DSC_9765.jpg" alt="Imagen 4" ></div>
-                                <div><img src="assets/images/DSC_9771.jpg" alt="Imagen 5" ></div>
-                            </div>
                         </div>
+                    </div>
+                </div>
+            </div>
+
+            <!--FIN SEPARADOR-->
+            <div class="container-fluid mt-2 mb-2">
+                <div class="row">
+                    <div class="col-10 col-md-4 col-sm-10">
+                        <img src="assets/images/Comp 1.gif" alt="" width="100%">
                     </div>
                 </div>
             </div>
@@ -402,8 +416,8 @@
 
                 // Slider de navegación
                 $('.slider-nav').slick({
-                    slidesToShow: 3,
-                    slidesToScroll: 1,
+                    slidesToShow: 2,
+                    slidesToScroll: 2,
                     asNavFor: '.slider-for',
                     arrows: true, // Agrega flechas para navegar
                     dots: true, // Agrega puntos de navegación
